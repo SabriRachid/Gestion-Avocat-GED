@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ROOT><ERROR><THREAD>6</THREAD><DATE>2018-05-16 13:56:42</DATE><LEVEL>1</LEVEL><DESCRIPTION>Source : VDocOpenSDK, 1006 : Utilisateur inconnu.,    à VDocOpenSDK.ClsDatabaseConnection.OpenSession(String psLogin, String psPassword)</DESCRIPTION><OBJECT>VDocOpenSDK.ClsDatabaseConnection</OBJECT><METHOD>OpenSession</METHOD></ERROR><ERROR><THREAD>6</THREAD><DATE>2018-05-16 13:56:42</DATE><LEVEL>1</LEVEL><DESCRIPTION>1006 : Utilisateur inconnu.</DESCRIPTION><OBJECT>VDocOpenSDK.VDOWebRequest</OBJECT><METHOD>CheckXmlResultNoError</METHOD></ERROR><ERROR><THREAD>6</THREAD><DATE>2018-05-16 13:56:42</DATE><LEVEL>1</LEVEL><DESCRIPTION>1006 : Utilisateur inconnu.</DESCRIPTION><OBJECT>VDocOpenSDK.VDOWebRequest</OBJECT><METHOD>CheckXmlResultNoError</METHOD></ERROR><ERROR><THREAD>1</THREAD><DATE>2018-05-16 13:43:14</DATE><LEVEL>1</LEVEL><DESCRIPTION>Source : VDocOpenSDK, La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.,    à VDocOpenSDK.ClsDatabaseConnection.OpenSession(String psLogin, String psPassword)</DESCRIPTION><OBJECT>VDocOpenSDK.ClsDatabaseConnection</OBJECT><METHOD>OpenSession</METHOD></ERROR><ERROR><THREAD>1</THREAD><DATE>2018-05-16 13:43:14</DATE><LEVEL>1</LEVEL><DESCRIPTION>La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.</DESCRIPTION><OBJECT>VDocOpenSDK.VDOWebRequest</OBJECT><METHOD>CheckXmlResultNoError</METHOD></ERROR><ERROR><THREAD>1</THREAD><DATE>2018-05-16 13:43:14</DATE><LEVEL>1</LEVEL><DESCRIPTION>La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.</DESCRIPTION><OBJECT>VDocOpenSDK.VDOWebRequest</OBJECT><METHOD>CheckXmlResultNoError</METHOD></ERROR>
+  <ERROR>
+    <THREAD>1</THREAD>
+    <DATE>2018-05-16 13:43:14</DATE>
+    <LEVEL>1</LEVEL>
+    <DESCRIPTION>La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception. URL : http://192.168.1.123/vdoc/portal/action/DMAuthenticationAction?url=http://win-8riai5vhbgt/vdocopenweb/desktop/asp/xmlsessioncreate.asp Method : POST Content Type : application/x-www-form-urlencoded Post Data : login=adm&amp;password=manager&amp;dbindex=%7bC7874927-C11C-4346-B16D-388385166704%7d&amp;mylanguage= Stack :    à System.Net.HttpWebRequest.GetResponse()
+   à VDocOpenSDK.VDOWebRequest.SendWebRequest()</DESCRIPTION>
+    <OBJECT>VDocOpenSDK.VDOWebRequest</OBJECT>
+    <METHOD>SendWebRequest</METHOD>
+  </ERROR>
+</ROOT>
